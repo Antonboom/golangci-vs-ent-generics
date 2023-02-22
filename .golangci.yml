@@ -1,0 +1,45 @@
+run:
+  skip-dirs:
+    - ent/*
+
+linters:
+  enable-all: true
+  disable:
+    # Deprecated
+    - deadcode
+    - golint
+    - exhaustivestruct
+    - ifshort
+    - interfacer
+    - maligned
+    - nosnakecase
+    - structcheck
+    - scopelint
+    - varcheck
+
+    # Broken
+    - asciicheck
+    - bodyclose
+    - bidichk
+    - contextcheck
+    - cyclop
+    - decorder
+    - depguard
+    - dupl
+    - dupword
+    - errorlint
+    - gocyclo
+    - gosec
+    - gosimple
+    - govet
+    - importas
+    - ineffassign
+    - nilnil
+    - lll
+    - makezero
+    - misspell
+    - nakedret
+    - nilerr
+    - noctx
+    - tparallel
+    - unparam
