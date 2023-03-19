@@ -9,12 +9,11 @@ import (
 	"sync"
 	"time"
 
+	"entgo.io/ent"
+	"entgo.io/ent/dialect/sql"
 	"github.com/Antonboom/golangci-vs-ent-generics/ent/car"
 	"github.com/Antonboom/golangci-vs-ent-generics/ent/predicate"
 	"github.com/Antonboom/golangci-vs-ent-generics/ent/user"
-
-	"entgo.io/ent"
-	"entgo.io/ent/dialect/sql"
 )
 
 const (

@@ -17,29 +17,15 @@ linters:
     - scopelint
     - varcheck
 
-    # Broken
-    - asciicheck
+    # Error `interface {} is nil, not *buildssa.SSA`
     - bodyclose
-    - bidichk
     - contextcheck
-    - cyclop
-    - decorder
-    - depguard
-    - dupl
-    - dupword
-    - errorlint
-    - gocyclo
-    - gosec
-    - gosimple
-    - govet
-    - importas
-    - ineffassign
-    - nilnil
-    - lll
-    - makezero
-    - misspell
-    - nakedret
     - nilerr
-    - noctx
-    - tparallel
+    - rowserrcheck
     - unparam
+
+    # Error `ent.withHooks$1: cannot convert *t0 (M) to PM`
+    - noctx
+    - sqlclosecheck
+    - tparallel
+    - wastedassign
